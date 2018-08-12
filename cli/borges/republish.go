@@ -1,12 +1,17 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
 	"time"
 
-	"github.com/src-d/borges"
-
 	"gopkg.in/src-d/go-log.v1"
 	"gopkg.in/src-d/go-queue.v1"
+
+	"github.com/sniperkit/snk.fork.borges"
 )
 
 const (

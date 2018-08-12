@@ -1,12 +1,18 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package borges
 
 import (
 	"io"
 	"sync"
 
-	"github.com/src-d/borges/metrics"
 	"gopkg.in/src-d/go-log.v1"
 	"gopkg.in/src-d/go-queue.v1"
+
+	"github.com/sniperkit/snk.fork.borges/metrics"
 )
 
 // Producer is a service to generate jobs and put them to the queue.

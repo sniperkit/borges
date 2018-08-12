@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
@@ -5,12 +10,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/src-d/borges"
-
 	"github.com/jessevdk/go-flags"
 	"gopkg.in/src-d/go-git.v4/utils/ioutil"
 	"gopkg.in/src-d/go-queue.v1"
 	_ "gopkg.in/src-d/go-queue.v1/amqp"
+
+	"github.com/sniperkit/snk.fork.borges"
 )
 
 const (

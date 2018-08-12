@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // borges archives repositories in a universal git library.
 //
 // The goal of borges is fetching repositories and maintain them updated.

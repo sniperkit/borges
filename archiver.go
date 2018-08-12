@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package borges
 
 import (
@@ -6,9 +11,6 @@ import (
 	"runtime/debug"
 	"strings"
 	"time"
-
-	"github.com/src-d/borges/lock"
-	"github.com/src-d/borges/metrics"
 
 	"github.com/jpillora/backoff"
 	"gopkg.in/src-d/core-retrieval.v0/model"
@@ -20,6 +22,9 @@ import (
 	"gopkg.in/src-d/go-git.v4/plumbing/transport"
 	"gopkg.in/src-d/go-kallax.v1"
 	"gopkg.in/src-d/go-log.v1"
+
+	"github.com/sniperkit/snk.fork.borges/lock"
+	"github.com/sniperkit/snk.fork.borges/metrics"
 )
 
 var (

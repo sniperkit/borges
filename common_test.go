@@ -1,11 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package borges
 
 import (
 	"fmt"
 	"testing"
 	"time"
-
-	"github.com/src-d/borges/storage"
 
 	"github.com/satori/go.uuid"
 	"github.com/stretchr/testify/suite"
@@ -14,6 +17,8 @@ import (
 	"gopkg.in/src-d/go-kallax.v1"
 	"gopkg.in/src-d/go-queue.v1"
 	_ "gopkg.in/src-d/go-queue.v1/amqp"
+
+	"github.com/sniperkit/snk.fork.borges/storage"
 )
 
 const (

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
@@ -6,14 +11,14 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/src-d/borges"
-	"github.com/src-d/borges/lock"
-	"github.com/src-d/borges/storage"
-
 	"gopkg.in/src-d/core-retrieval.v0"
 	"gopkg.in/src-d/go-log.v1"
 	"gopkg.in/src-d/go-queue.v1"
 	_ "gopkg.in/src-d/go-queue.v1/amqp"
+
+	"github.com/sniperkit/snk.fork.borges"
+	"github.com/sniperkit/snk.fork.borges/lock"
+	"github.com/sniperkit/snk.fork.borges/storage"
 )
 
 const (

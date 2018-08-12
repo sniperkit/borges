@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package borges
 
 import (
@@ -11,11 +16,12 @@ import (
 	"testing"
 
 	"github.com/satori/go.uuid"
-	"github.com/src-d/borges/storage"
 	"github.com/stretchr/testify/suite"
 	"gopkg.in/src-d/core-retrieval.v0/model"
 	"gopkg.in/src-d/core-retrieval.v0/test"
 	"gopkg.in/src-d/go-kallax.v1"
+
+	"github.com/sniperkit/snk.fork.borges/storage"
 )
 
 func TestLineJobIter(t *testing.T) {

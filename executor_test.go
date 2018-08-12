@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package borges
 
 import (
@@ -6,13 +11,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/src-d/borges/storage"
-
 	"github.com/stretchr/testify/suite"
 	"gopkg.in/src-d/core-retrieval.v0/test"
 	"gopkg.in/src-d/go-kallax.v1"
 	"gopkg.in/src-d/go-log.v1"
 	"gopkg.in/src-d/go-queue.v1/memory"
+
+	"github.com/sniperkit/snk.fork.borges/storage"
 )
 
 type ExecutorSuite struct {

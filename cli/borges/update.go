@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
-import "gopkg.in/src-d/go-log.v1"
+import (
+	"gopkg.in/src-d/go-log.v1"
+)
 
 const (
 	updateCmdName      = "update"

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
@@ -5,8 +10,9 @@ import (
 	"net/http"
 	_ "net/http/pprof"
 
-	"github.com/src-d/borges/metrics"
 	"gopkg.in/src-d/go-log.v1"
+
+	"github.com/sniperkit/snk.fork.borges/metrics"
 )
 
 // ExecutableCommand holds a command and executable function.

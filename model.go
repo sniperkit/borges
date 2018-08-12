@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package borges
 
-import "gopkg.in/src-d/core-retrieval.v0/model"
+import (
+	"gopkg.in/src-d/core-retrieval.v0/model"
+)
 
 // NewModelReferencer takes a *model.Repository and returns a Referencer that
 // accesses its references. The resulting Referencer never returns an error.

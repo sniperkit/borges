@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package lock provides implementations for cancellable and distributed locks.
 package lock
 

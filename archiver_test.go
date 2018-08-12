@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package borges
 
 import (
@@ -11,9 +16,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/src-d/borges/lock"
-	"github.com/src-d/borges/storage"
-
 	"github.com/satori/go.uuid"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
@@ -26,6 +28,9 @@ import (
 	"gopkg.in/src-d/go-git.v4"
 	"gopkg.in/src-d/go-git.v4/storage/memory"
 	"gopkg.in/src-d/go-kallax.v1"
+
+	"github.com/sniperkit/snk.fork.borges/lock"
+	"github.com/sniperkit/snk.fork.borges/storage"
 )
 
 func TestArchiver(t *testing.T) {

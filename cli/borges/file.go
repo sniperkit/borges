@@ -1,12 +1,17 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
 	"os"
 
-	"github.com/src-d/borges"
-	"github.com/src-d/borges/storage"
-
 	"gopkg.in/src-d/core-retrieval.v0"
+
+	"github.com/sniperkit/snk.fork.borges"
+	"github.com/sniperkit/snk.fork.borges/storage"
 )
 
 const (

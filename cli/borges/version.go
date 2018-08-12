@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 const (
 	versionCmdName      = "version"
